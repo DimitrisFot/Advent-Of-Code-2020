@@ -8,3 +8,4 @@ print(max(all_seats))
 
 your_seat = [s for s in range(min(all_seats), max(all_seats))if s not in all_seats][0]
 print(your_seat)
+print("Test")
